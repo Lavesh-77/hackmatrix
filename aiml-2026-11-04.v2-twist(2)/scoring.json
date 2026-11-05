@@ -1,0 +1,21 @@
+{
+  "weights": {
+    "probability": 40,
+    "value": 30,
+    "selection": 30
+  },
+  "scales": {
+    "probability": 1.0,
+    "value": 4000000.0
+  },
+  "training_target_mean": {
+    "probability": 0.30892918234690386,
+    "value": 165.2451693465615
+  },
+  "cap_gbp": 2000.0,
+  "training_target_variance": {
+    "probability": 0.21349194264138224,
+    "value": 131470.98742421917
+  },
+  "scale_rule": "Squared target ranges1 and2000^2. Affine bounded proper losses; constants independent of all targets."
+}
