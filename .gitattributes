@@ -1,0 +1,20 @@
+# Normalize line endings on commit so Windows and Linux produce clean diffs.
+* text=auto
+
+# Shell scripts must stay LF.
+*.sh text eol=lf
+
+# PowerShell scripts must stay CRLF.
+*.ps1 text eol=crlf
+
+# Documentation and source stay LF.
+*.md      text eol=lf
+*.json    text eol=lf
+*.jsonc   text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.py      text eol=lf
+*.js      text eol=lf
+*.ts      text eol=lf
+*.tsx     text eol=lf
+*.jsx     text eol=lf

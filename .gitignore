@@ -1,0 +1,36 @@
+# Environment files — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Personal notes (kept outside version control)
+TEAM_LEAD_PLAYBOOK.md
